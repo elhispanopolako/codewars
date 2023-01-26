@@ -42,7 +42,6 @@ function nextBigger(n) {
     return +(arr.slice(0, i).concat(arr.slice(i).reverse()).join(""));
 }
 //tests
-const Test = require('@codewars/test-compat');
 
 describe("Tests", () => {
     it("test", () => {

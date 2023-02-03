@@ -48,7 +48,7 @@ describe("Scorer Function", function () {
     it("should value this mixed set correctly", function () {
         Test.expect(score([2, 4, 4, 5, 4]) == 450, "Should be 450");
     });
-    it('', () => {
+    it('should value this mixed set correctly', () => {
         Test.expect(score([1, 1, 1, 1, 3]) == 1100, "Should be 1150");
 
     })
